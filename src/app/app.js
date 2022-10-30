@@ -1,6 +1,6 @@
 console.log(__dirname)
-import {userRoutes} from "../Routes/User/routes.js";
-import {projectRoutes} from "../Routes/Project/routes.js";
+import {userRoutes} from "../app/Routes/User/routes.js";
+import {projectRoutes} from "../app/Routes/Project/routes.js";
 
 
 import cors from "cors";
